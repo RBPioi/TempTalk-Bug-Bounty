@@ -87,9 +87,13 @@ Submissions that are incomplete or vague may result in delayed evaluation or dis
 
 Please use the public key below to encrypt the PDF file, and then add the encrypted PDF file to the attachment and send it to the TempTalk mailbox[security@chative.com](mailto:security@chative.com).
 Obtain the public key file security.gpg. Import the public key into your GPG keyring:
-gpg --import security.gpg
+
+`gpg --import security.gpg`
+
 Encrypt the file using the public key:
-gpg --encrypt --recipient "security@chative.com” filename
+
+`gpg --encrypt --recipient "security@chative.com” filename`
+
 This will produce an encrypted file (e.g., filename.gpg) that you can send to the security@chative.com
 
 PGP PUBLIC KEY：https://raw.githubusercontent.com/RBPioi/sec/refs/heads/main/security.gpg

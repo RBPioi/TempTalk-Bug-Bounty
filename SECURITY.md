@@ -60,9 +60,9 @@ To keep our focus on the most impactful security issues, the following are consi
 
 We ask all security researchers to adhere to responsible disclosure principles:
 
-·	No Public Disclosure: Please avoid publicly sharing or discussing the vulnerability until TempTalk has verified and addressed it.
-·	Use Only Your Test Accounts: Do not access, alter, or damage data belonging to TempTalk users.
-·	Limit Your Impact: Conduct testing in a way that does not disrupt the TempTalk service for other users.
+- No Public Disclosure: Please avoid publicly sharing or discussing the vulnerability until TempTalk has verified and addressed it.
+- Use Only Your Test Accounts: Do not access, alter, or damage data belonging to TempTalk users.
+- Limit Your Impact: Conduct testing in a way that does not disrupt the TempTalk service for other users.
 
 Failure to adhere to these policies may result in disqualification from the bug bounty program and a ban from future participation.
 
@@ -83,7 +83,7 @@ Attach any scripts, payloads, or files that may help us replicate the issue on o
 
 Submissions that are incomplete or vague may result in delayed evaluation or disqualification from rewards.
 
-Note: To ensure that the vulnerability you found is not stolen during transmission, please fill in the vulnerability details in a PDF document and encrypt it with a key. You can briefly summarize the vulnerability type and impact in the body of the email, but do not describe the vulnerability details in the body of the email.
+**Note: To ensure that the vulnerability you found is not stolen during transmission, please fill in the vulnerability details in a PDF document and encrypt it with a key. You can briefly summarize the vulnerability type and impact in the body of the email, but do not describe the vulnerability details in the body of the email.**
 
 Please use the public key below to encrypt the PDF file, and then add the encrypted PDF file to the attachment and send it to the TempTalk mailbox[security@chative.com](mailto:security@chative.com).
 Obtain the public key file security.gpg. Import the public key into your GPG keyring:
@@ -98,10 +98,10 @@ PGP PUBLIC KEY：https://raw.githubusercontent.com/RBPioi/sec/refs/heads/main/se
 
 Rewards are determined based on the impact, risk level, quality, and clarity of the report. All reward decisions are final and are assessed according to the following general criteria:
 
-·	Critical: Vulnerabilities with immediate risk of large-scale exploitation, such as RCE, significant data breaches, or account takeover on a mass scale.
-·	High: Issues that can lead to unauthorized access, unauthorized data exposure, or control of a single user account.
-·	Medium: Moderate vulnerabilities affecting a subset of users or requiring complex exploitation methods.
-·	Low: Minor issues with limited exploitability or impact, often requiring significant user interaction to exploit.
+- Critical: Vulnerabilities with immediate risk of large-scale exploitation, such as RCE, significant data breaches, or account takeover on a mass scale.
+- High: Issues that can lead to unauthorized access, unauthorized data exposure, or control of a single user account.
+- Medium: Moderate vulnerabilities affecting a subset of users or requiring complex exploitation methods.
+- Low: Minor issues with limited exploitability or impact, often requiring significant user interaction to exploit.
 
 Rewards are assessed individually based on severity, with higher payouts for clear, reproducible, and impactful reports.
 
@@ -113,15 +113,19 @@ TempTalk pledges to not pursue legal action against researchers who report secur
 # FAQ
 
 **Q: Can I disclose the vulnerability publicly once I report it?**
+
 A: No, please wait until we confirm that the vulnerability has been resolved. We will notify you when it is safe to disclose your findings.
 
 **Q: How long does it take for reports to be reviewed?**
+
 A: We strive to acknowledge your submission within 72 hours. Evaluation and resolution times will vary based on severity and complexity.
 
 **Q: What happens if I submit multiple vulnerabilities?**
+
 A: Each unique, in-scope vulnerability is eligible for an individual reward. Submissions of duplicate or similar issues may not be eligible for additional rewards.
 
 **Q: Who do I contact if I have questions about these rules?**
+
 A: Feel free to reach out to our team at [security@chative.com](mailto:security@chative.com) for any clarifications or questions regarding the program. You can also join the [TempTalk discord group](https://discord.gg/9sYV6AUk) to see the latest announcements
 
 

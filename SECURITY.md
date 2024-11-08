@@ -85,7 +85,7 @@ Submissions that are incomplete or vague may result in delayed evaluation or dis
 
 **Note: To ensure that the vulnerability you found is not stolen during transmission, please fill in the vulnerability details in a PDF document and encrypt it with a key. You can briefly summarize the vulnerability type and impact in the body of the email, but do not describe the vulnerability details in the body of the email.**
 
-Please use the public key below to encrypt the PDF file, and then add the encrypted PDF file to the attachment and send it to the TempTalk mailbox[security@chative.com](mailto:security@chative.com).
+Please use the public key below to encrypt the PDF file, and then add the encrypted PDF file to the attachment and send it to the TempTalk mailbox [security@chative.com](mailto:security@chative.com).
 Obtain the public key file security.gpg. Import the public key into your GPG keyring:
 
 `gpg --import security.gpg`

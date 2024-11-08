@@ -48,13 +48,13 @@ We welcome reports on the following types of vulnerabilities, each of which is e
 
 To keep our focus on the most impactful security issues, the following are considered out of scope and will not be eligible for rewards:
 
-·	Reports for Unsupported Platforms or Environments: Any issues on platforms outside iOS, Android, and the Electron-based PC app.
-·	Physical Access Requirements: Vulnerabilities that require physical access to the device to exploit.
-·	Social Engineering Attacks: Social engineering (e.g., phishing) against TempTalk users, employees, or support staff is not permitted.
-·	Issues in Third-Party Components or Services: Any bugs in third-party services that TempTalk does not directly control (e.g., cloud provider infrastructure).
-·	Denial-of-Service (DoS) Attacks: Attacks that disrupt service availability, including resource exhaustion or brute-force attacks against login pages.
-·	Outdated Version Reports: Any bugs found in outdated or unsupported versions of the TempTalk application.
-·	User Experience or User Interface Bugs: Visual or functional bugs that do not directly affect security.
+- Reports for Unsupported Platforms or Environments: Any issues on platforms outside iOS, Android, and the Electron-based PC app.
+- Physical Access Requirements: Vulnerabilities that require physical access to the device to exploit.
+- Social Engineering Attacks: Social engineering (e.g., phishing) against TempTalk users, employees, or support staff is not permitted.
+- Issues in Third-Party Components or Services: Any bugs in third-party services that TempTalk does not directly control (e.g., cloud provider infrastructure).
+- Denial-of-Service (DoS) Attacks: Attacks that disrupt service availability, including resource exhaustion or brute-force attacks against login pages.
+- Outdated Version Reports: Any bugs found in outdated or unsupported versions of the TempTalk application.
+- ser Experience or User Interface Bugs: Visual or functional bugs that do not directly affect security.
 
 # Responsible Disclosure Policy
 
@@ -70,15 +70,15 @@ Failure to adhere to these policies may result in disqualification from the bug 
 
 To ensure we can verify and triage your findings efficiently, please submit vulnerability reports via email to [security@chative.com](mailto:security@chative.com) with the following details:
 
-(1)Clear Title and Description
+1. Clear Title and Description
 Provide a concise title (e.g., "Session Fixation Vulnerability in iOS TempTalk App") and a detailed description of the issue.
-(2)Proof of Concept (PoC)
+2. Proof of Concept (PoC)
 Include detailed steps to reproduce the issue, along with a proof-of-concept (PoC) that may include screenshots, videos, code samples, or logs.
-(3)Platform and Version Information
+3. Platform and Version Information
 Specify the TempTalk app version and the operating system (iOS, Android, or Electron-based PC) where you found the vulnerability.
-(4)Impact Assessment
+4. Impact Assessment
 Clearly outline the security impact of the vulnerability and explain any potential risks to users or data.
-(5)Any Supporting Materials
+5. Any Supporting Materials
 Attach any scripts, payloads, or files that may help us replicate the issue on our end.
 
 Submissions that are incomplete or vague may result in delayed evaluation or disqualification from rewards.
@@ -92,6 +92,7 @@ Encrypt the file using the public key:
 gpg --encrypt --recipient "security@chative.com” filename
 This will produce an encrypted file (e.g., filename.gpg) that you can send to the security@chative.com
 
+https://raw.githubusercontent.com/RBPioi/sec/refs/heads/main/security.gpg
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mDMEZydexxYJKwYBBAHaRw8BAQdAv4UcyNDjwUSekWZoenhNPrXlDaW/ZIkz8Me+

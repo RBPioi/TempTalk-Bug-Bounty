@@ -92,7 +92,7 @@ Obtain the public key file security.gpg. Import the public key into your GPG key
 
 Encrypt the file using the public key:
 
-`gpg --encrypt --recipient "security@chative.com” filename`
+`gpg --encrypt --recipient security@chative.com filename`
 
 This will produce an encrypted file (e.g., filename.gpg) that you can send to the security@chative.com
 

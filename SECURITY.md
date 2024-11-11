@@ -130,7 +130,7 @@ A: Each unique, in-scope vulnerability is eligible for an individual reward. Sub
 
 **Q: Who do I contact if I have questions about these rules?**
 
-A: Feel free to reach out to our team at [security@chative.com](mailto:security@chative.com) for any clarifications or questions regarding the program. You can also join the [TempTalk discord group](https://discord.gg/9sYV6AUk) to see the latest announcements
+A: Feel free to reach out to our team at [security@chative.com](mailto:security@chative.com) for any clarifications or questions regarding the program. You can also join the [TempTalk discord group](https://discord.gg/VNGvKGGm) to see the latest announcements
 
 
 Thank you for helping make TempTalk a secure platform for everyone. We look forward to your contributions and appreciate your efforts to responsibly disclose any vulnerabilities you find. Happy hunting!

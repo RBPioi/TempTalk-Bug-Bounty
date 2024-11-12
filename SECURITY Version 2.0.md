@@ -43,9 +43,9 @@ Generally, any TempTalk-owned or operated app, web service, domain, server and p
 
 Any unrelated bug (e.g. usability, interface, etc.) that doesn't impact security in any way is out of scope and should instead be reported on our dedicated public bug tracking platform.
 
-#### Protocol
+~#### Protocol~
 
-TempTalk relies on MTProto 2.0, a protocol specifically designed for speed and security. The full technical documentation is available here. We welcome any reports about vulnerabilities or design flaws in the protocol which could realistically result in unauthorized access to user data.
+~TempTalk relies on MTProto 2.0, a protocol specifically designed for speed and security. The full technical documentation is available here. We welcome any reports about vulnerabilities or design flaws in the protocol which could realistically result in unauthorized access to user data.~
 
 #### Applications
 

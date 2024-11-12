@@ -2,7 +2,7 @@
 
 TempTalk welcomes developers and the security research community to audit its services, code and protocol seeking vulnerabilities or security-related issues.
 
-Security researchers can submit any relevant issues they find at security@TempTalk.org. All reports submitted in accordance with the rules and scope outlined below which result in a change of code or configuration are eligible for bounties, ranging from $100 to $100,000 or more, depending on the severity of the issue.
+Security researchers can submit any relevant issues they find at security@chative.com All reports submitted in accordance with the rules and scope outlined below which result in a change of code or configuration are eligible for bounties, ranging from $100 to $100,000 or more, depending on the severity of the issue.
 
 > TempTalk's bug bounty program has been continuously active since 2024.
 
@@ -95,7 +95,7 @@ We expect all reports to be written in English and to follow a consistent templa
 
 ##### Third-Party Bug Bounty Platforms
 
-We ask for all submissions and correspondence to be sent directly to security@TempTalk.org – TempTalk currently does not maintain a presence on third-party bug bounty platforms or services.
+We ask for all submissions and correspondence to be sent directly to security@chative.com – TempTalk currently does not maintain a presence on third-party bug bounty platforms or services.
 
 ### Prize
 

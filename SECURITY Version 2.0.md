@@ -70,7 +70,7 @@ Issues caused by third-party developers' malpractice, negligence or incorrect im
 
 ### Submission
 
-If you found an issue which is in scope, is eligible and was found in accordance to our rules, you are welcome to submit it to security@TempTalk.org.
+If you found an issue which is in scope, is eligible and was found in accordance to our rules, you are welcome to submit it to security@chative.com.
 
 We expect all reports to be written in English and to follow a consistent template, spacing included:
 

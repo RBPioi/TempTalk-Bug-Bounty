@@ -103,19 +103,19 @@ Valid reports that result in a change of code or configuration are eligible for 
 
 > In general, app-level changes can expect bounties ranging from $100 to $10,000. Protocol-level issues may be eligible for rewards of up to $100,000 or more.
 
-#### Test Environment
+~#### Test Environment~
 
-To log in to the test environment, use either of the following:
+~To log in to the test environment, use either of the following:~
 
-iOS: tap 10 times on the Settings icon > Accounts > Login to another account > Test.
-TempTalk Desktop: open ☰ Settings > Shift + Alt + Right click ‘Add Account’ and select ‘Test Server’.
-macOS: click the Settings icon 10 times to open the Debug Menu, ⌘ + click ‘Add Account’ and log in via phone number.
+~iOS: tap 10 times on the Settings icon > Accounts > Login to another account > Test.~
+~TempTalk Desktop: open ☰ Settings > Shift + Alt + Right click ‘Add Account’ and select ‘Test Server’.~
+~macOS: click the Settings icon 10 times to open the Debug Menu, ⌘ + click ‘Add Account’ and log in via phone number.~
 
-The test environment is completely separate from the main environment, so you will need to create a new user account (or a new bot with @BotFather).
+~The test environment is completely separate from the main environment, so you will need to create a new user account (or a new bot with @BotFather).~
 
-You can send requests to the test Bot API in this format:
+~You can send requests to the test Bot API in this format:~
 
-`https://api.temptalk.com/bot<token>/test/METHOD_NAME`
+~`https://api.temptalk.com/bot<token>/test/METHOD_NAME`~
 
-> When working within the test environment, you may use HTTP links without TLS to test Web Apps.
+~> When working within the test environment, you may use HTTP links without TLS to test Web Apps.~
 

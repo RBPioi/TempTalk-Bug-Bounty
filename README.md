@@ -2,12 +2,11 @@
 
 **TempTalk is a security & privacy focused chat app.**
 
-Submit all security vulnerabilities related to TempTalk products.
+We encourage the submission of any security vulnerabilities identified in TempTalk products.
 
-For specific policies, please refer to the following page
-https://github.com/RBPioi/TempTalk-Bug-Bounty/security
+For detailed policies and guidelines, please refer to [our security page](
+https://github.com/RBPioi/TempTalk-Bug-Bounty/security).
 
-If you have any questions, please contact us through the following contact information
-
+For any inquiries, please contact us via:
 - Email: security@chative.com
 - Discord: [https://discord.gg/9sYV6AUk](https://discord.gg/VNGvKGGm)

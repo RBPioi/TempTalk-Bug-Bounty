@@ -68,35 +68,41 @@ Failure to adhere to these policies may result in disqualification from the bug 
 
 # Reporting Procedure
 
-To ensure we can verify and triage your findings efficiently, please submit vulnerability reports via email to [security@chative.com](mailto:security@chative.com) with the following details:
+To help us verify and assess your findings efficiently, we recommend submitting your report directly through our [GitHub security page](https://github.com/RBPioi/TempTalk-Bug-Bounty/security). If you prefer email submission, please see the [Email Submission](#email-submission) section below.
 
-1. Clear Title and Description
-Provide a concise title (e.g., "Session Fixation Vulnerability in iOS TempTalk App") and a detailed description of the issue.
-2. Proof of Concept (PoC)
-Include detailed steps to reproduce the issue, along with a proof-of-concept (PoC) that may include screenshots, videos, code samples, or logs.
-3. Platform and Version Information
-Specify the TempTalk app version and the operating system (iOS, Android, or Electron-based PC) where you found the vulnerability.
-4. Impact Assessment
-Clearly outline the security impact of the vulnerability and explain any potential risks to users or data.
-5. Any Supporting Materials
-Attach any scripts, payloads, or files that may help us replicate the issue on our end.
+### Report Submission Requirements
+When submitting a report, please include the following details:
 
+1. **Clear Title and Description**  
+Provide a concise title (e.g., "Session Fixation Vulnerability in iOS TempTalk App") along with a comprehensive description of the issue.
+
+2. **Proof of Concept (PoC)**  
+Detail the steps to reproduce the issue, including a proof-of-concept (PoC) with relevant screenshots, videos, code snippets, or logs.
+
+3. **Platform and Version Information**  
+Specify the TempTalk app version and the operating system (iOS, Android, or Electron-based PC) on which you identified the vulnerability.
+
+4. **Impact Assessment**  
+Clearly describe the security impact of the vulnerability, highlighting any risks posed to users or data.
+
+5. **Supporting Materials**  
+Attach any scripts, payloads, or additional files that may assist us in replicating the issue.
+   
 Submissions that are incomplete or vague may result in delayed evaluation or disqualification from rewards.
 
-**Note: To ensure that the vulnerability you found is not stolen during transmission, please fill in the vulnerability details in a PDF document and encrypt it with a key. You can briefly summarize the vulnerability type and impact in the body of the email, but do not describe the vulnerability details in the body of the email.**
+## Email Submission
+To submit a report anonymously or solely via email, please prepare a PDF document following the specified format provided by TempTalk.
 
-Please use the public key below to encrypt the PDF file, and then add the encrypted PDF file to the attachment and send it to the TempTalk mailbox [security@chative.com](mailto:security@chative.com).
-Obtain the public key file security.gpg. Import the public key into your GPG keyring:
+Include detailed information about the vulnerability in the PDF, encrypt it with a designated encryption key, and add a brief summary of the vulnerability type and impact in the email body without any specific vulnerability details.
 
-`gpg --import security.gpg`
+Please use the public PGP key (linked below) to encrypt the PDF file before attaching it to your email. Then, send the encrypted file to our security email: security@chative.com.
 
-Encrypt the file using the public key:
+### Steps to Encrypt the PDF with the Public Key:
+1. Download the public key file [security.gpg](https://raw.githubusercontent.com/RBPioi/sec/refs/heads/main/security.gpg).
+2. Import the public key into your GPG keyring: `gpg --import security.gpg`
+3. Encrypt the PDF using the public key: `gpg --encrypt --recipient security@chative.com filename`. 
 
-`gpg --encrypt --recipient security@chative.com filename`
-
-This will produce an encrypted file (e.g., filename.gpg) that you can send to the security@chative.com
-
-PGP PUBLIC KEY：https://raw.githubusercontent.com/RBPioi/sec/refs/heads/main/security.gpg
+This command will produce an encrypted file (e.g., filename.gpg) that can be attached and sent to security@chative.com.
 
 # Reward Criteria
 

@@ -8,7 +8,7 @@
 |Severity|Medium (CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L)|
 |Proof of Concepts|[PoC Video Link](https://youtu.be/dQw4w9WgXcQ?si=l8r4a6VXy0l7p37T)|
 
-**Summary**
+## Summary
 
 This is a SAMPLE bug report. You can use this template to submit your findings to our bug bounty program. 
 
